@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="mainHeading"><h1>Welcome Back!!</h1></div>
+        <marquee>Please Proceed with Registration Process</marquee>
+        <form action="post">
+            <table align="center">
+                <caption>Registration Form</caption>
+                <tr>
+                    <td><label>First Name:</label></td>
+                    <td><input id="fname" name="fname" type="text" required autocapitalize="true"></td>
+                </tr>
+                <tr>
+                    <td><label>Last Name:</label></td>
+                    <td><input type="text" name="lname" id="lname" required></td>
+                </tr>
+                <tr>
+                    <td><label>Email Address:</label></td>
+                    <td><input type="email" name="gmail" id="gmail" required></td>
+                </tr>
+                <tr>
+                    <td><label>Favoraite Game:</label></td>
+                    <td>
+                    <select name="hobbies">
+                        <option selected>Select Option</option>
+                        <option value="cricket">Cricket</option>
+                        <option value="baseball">BaseBall</option>
+                        <option value="tennis">Tennis</option>
+                        <option value="badminton">Badminton</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><button value="submit">Submit</button></td>
+                    <td><input type="reset" value="Reset"></td>
+                </tr>
+            </table>
+        </form>
+        <div><p id="showDate"></p></div>
+        <!-- <script src="todayDate.js"></script> -->
+    </body>
+</html>
